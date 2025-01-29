@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 35vw;
+    height: 100vh;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+    margin: 10% 35%;
+}
+
+img {
+    width: 25%;
+    height: 18%;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 40px 37% 0;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    font-weight: 600;
+}
+
+h2 {
+    color: hsl(75, 94%, 57%);
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+h3 {
+    color: hsl(0, 0%, 70%);
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 80%);
+    cursor: pointer;
+    margin: 0 55px 25px;
+    padding: 15px 200px;
+    min-width: 150px;
+    max-width: 80%;
+    white-space: nowrap;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.btns:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+.attribution {
+    font-size: 15px; 
+    text-align: center; 
+    color: hsl(0, 0%, 80%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 85vw;
+        height: 80vh;
+        margin: 30% auto;
+    }
+
+    .btns {
+        padding: 15px 150px;
+        font-size: 14px;
+        margin: 0 20px 20px;
+        min-width: 120px;
+        max-width: 60%;
+    }
+
+    img {
+        width: 40%;
+        margin-left: 30%;
+    }
+}
